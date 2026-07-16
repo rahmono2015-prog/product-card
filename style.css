@@ -2,6 +2,11 @@ body {
   font-family: montserrat, sans-serif;
   font-size: 13px;
   color: #515076;
+  margin: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .title {
@@ -13,7 +18,7 @@ body {
   margin-bottom: 50px;
 }
 
-.card-tag {
+.card__tag {
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
@@ -22,7 +27,7 @@ body {
   margin-top: 10px;
 }
 
-.card-name {
+.card__name {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -31,7 +36,7 @@ body {
   margin: 6px 0;
 }
 
-.card-desc {
+.card__desc {
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
@@ -67,7 +72,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-.card-img {
+.card__img {
   width: 290px;
   height: 245px;
   margin: 5px 0;
@@ -76,7 +81,7 @@ body {
   margin-right: auto;
 }
 
-.card-price {
+.card__price {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,13 +92,13 @@ body {
   padding-top: 12px;
 }
 
-.price-label {
+.price__label {
   color: #515076;
   font-size: 14px;
   font-weight: bold;
 }
 
-.price-value {
+.price__value {
   color: #515176;
   font-size: 20px;
   font-weight: bold;
@@ -104,8 +109,6 @@ body {
   width: 100%;
   margin: 0 auto;
   background-image: url(images-produckt-card/photo_fon.png);
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   padding: 40px 50px;
   border-radius: 24px;
