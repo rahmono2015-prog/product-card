@@ -1,7 +1,7 @@
 const productCards = document.querySelectorAll('.card');
 const changeColorAllCardsButton = document.querySelector('#change-color-all-cards');
 const greenColorHash = '#00ff00';
-const blueColorHash = '#0000ff';
+
 
 changeColorAllCardsButton.addEventListener('click', () => {
   productCards.forEach((cards) => cards.style.backgroundColor = greenColorHash)
@@ -9,6 +9,7 @@ changeColorAllCardsButton.addEventListener('click', () => {
 
 const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
+const blueColorHash = '#0000ff';
 
 changeColorFirstCardButton.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = blueColorHash;
