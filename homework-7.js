@@ -2,12 +2,12 @@ function showWeather(city, temp) {
   console.log(`Сейчас в ${city} Температура ${temp} градусов по Цельсию`);
 }
 
-const speedOfLight = 299792458;
+const SPEED_OF_LIGHT = 299792458;
 function checkSpeed(speed) {
-  if (speed > speedOfLight) {
+  if (speed > SPEED_OF_LIGHT) {
     console.log('Сверхсветовая скорость');
   }
-  else if (speed < speedOfLight) {
+  else if (speed < SPEED_OF_LIGHT) {
     console.log('Достоверная скорость');
   }
   else {
@@ -31,6 +31,6 @@ function buyProduct(budget) {
 const myName = 'Шариф';
 const myAge = 30;
 const myCity = 'Душанбе';
-function introdyce() {
+function introduce() {
   console.log(`Привет! Меня зовут ${myName}, Мне ${myAge} лет, я из ${myCity}.`);
 }
