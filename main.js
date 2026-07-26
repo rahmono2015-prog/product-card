@@ -1,18 +1,18 @@
 const productCards = document.querySelectorAll('.card');
 const changeColorAllCardsButton = document.querySelector('#change-color-all-cards');
-const greenColorHash = '#00ff00';
+const greenColor = 'rgba(0, 255, 0, 0.5)';
 
 
 changeColorAllCardsButton.addEventListener('click', () => {
-  productCards.forEach((cards) => cards.style.backgroundColor = greenColorHash)
+  productCards.forEach((cards) => cards.style.backgroundColor = greenColor)
 })
 
 const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
-const blueColorHash = '#0000ff';
+const blueColor = 'rgba(0, 0, 255, 0.5)';
 
 changeColorFirstCardButton.addEventListener('click', () => {
-  firstProductCard.style.backgroundColor = blueColorHash;
+  firstProductCard.style.backgroundColor = blueColor;
 });
 
 const openGoogleButton = document.querySelector('#open-google');
