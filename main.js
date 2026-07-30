@@ -9,6 +9,7 @@ changeColorAllCardsButton.addEventListener('click', () => {
 
 const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
+const blueColor = 'rgba(0, 0, 255, 0.5)';
 
 changeColorFirstCardButton.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = blueColor;
