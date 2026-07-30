@@ -1,17 +1,17 @@
 const productCards = document.querySelectorAll('.card');
 const changeColorAllCardsButton = document.querySelector('#change-color-all-cards');
-const greenColorHash = '#00ff00';
-const blueColorHash = '#0000ff';
+const greenColor = 'rgba(0, 255, 0, 0.7)';
+const blueColor = 'rgba(0, 0, 255, 0.7)';
 
 changeColorAllCardsButton.addEventListener('click', () => {
-  productCards.forEach((cards) => cards.style.backgroundColor = greenColorHash)
+  productCards.forEach((cards) => cards.style.backgroundColor = greenColor)
 })
 
 const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
 
 changeColorFirstCardButton.addEventListener('click', () => {
-  firstProductCard.style.backgroundColor = blueColorHash;
+  firstProductCard.style.backgroundColor = blueColor;
 });
 
 const openGoogleButton = document.querySelector('#open-google');
@@ -33,6 +33,6 @@ const outputLogButton = document.querySelector('#output-console-log');
 outputLogButton.addEventListener('click', () => outputConsoleLog('ДЗ№5'))
 
 function outputConsoleLog(message) {
-  alert('10')
+  alert('Что дальше!')
   console.log(message)
 }

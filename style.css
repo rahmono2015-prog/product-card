@@ -145,6 +145,12 @@ body {
   font-weight: bold;
 }
 
+.cards__btn:hover {
+  border-radius: 3px;
+  transform: translateY(-1px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .card__price-value {
   color: #515076;
   font-size: 20px;
