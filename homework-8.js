@@ -26,7 +26,6 @@ const car = {
 
 //добавил владельца из задачи №3
 car.owner = person;
-console.log(car);
 
 //задача №5
 function addMaxSpeed(obj) {
