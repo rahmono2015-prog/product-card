@@ -1,7 +1,7 @@
 const productCards = document.querySelectorAll('.card');
 const changeColorAllCardsButton = document.querySelector('#change-color-all-cards');
-const greenColor = 'rgba(0, 255, 0, 0.5)';
-
+const greenColor = 'rgba(0, 255, 0, 0.7)';
+const blueColor = 'rgba(0, 0, 255, 0.7)';
 
 changeColorAllCardsButton.addEventListener('click', () => {
   productCards.forEach((cards) => cards.style.backgroundColor = greenColor)
@@ -34,6 +34,6 @@ const outputLogButton = document.querySelector('#output-console-log');
 outputLogButton.addEventListener('click', () => outputConsoleLog('ДЗ№5'))
 
 function outputConsoleLog(message) {
-  alert('10')
+  alert('Что дальше!')
   console.log(message)
 }
